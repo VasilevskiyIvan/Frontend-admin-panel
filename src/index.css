@@ -1,0 +1,14 @@
+html {
+  background-image: url('/backbot.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: max-content;
+  min-height: 100vh;
+  scrollbar-color: rgba(0, 0, 0, 0.8) rgb(255,255,255);
+}
+
+body {
+  margin: 0;
+}

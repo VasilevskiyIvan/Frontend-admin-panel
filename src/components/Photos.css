@@ -1,0 +1,92 @@
+.preview-slider {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  width: calc(100% - 50px);
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.media-section h3 {
+  width: calc(100% - 40px);
+  height: 50px;
+  font-size: 24px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.8);;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 10px 0;
+}
+.counter {
+  font-size: 14px;
+  font-weight: bold;
+}
+.preview-slider img {
+  max-width: 100%;
+  max-height: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.media-section button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+
+.delete-media-button {
+  background: rgba(255, 0, 0, 0.8) !important;
+  height: 25px;
+  width: 100px;
+  font-size: 16px;
+}
+
+.media-controls-button {
+  height: 25px;
+  width: 100px;
+  font-size: 16px;
+}
+
+.upload-controls-button {
+  height: 40px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.upload-controls-button:hover, .media-controls-button:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.media-section video {
+  max-width: 100%;
+  max-height: 300px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+.language-indicators {
+  display: flex;
+  gap: 10px;
+  margin-bottom: -45px;
+}
+
+.language-indicator {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.danger-indicator {
+  background-color: rgba(255, 0, 0, 0.9);
+  animation: pulse-red 1s infinite;
+}
+
+.warning-indicator {
+  background-color: rgb(240, 190, 0);
+}
+
+.success-indicator {
+  background-color: rgb(0,128,0);
+}
+
+@media (max-width: 992px) {
+  .language-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+}

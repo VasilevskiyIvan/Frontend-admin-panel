@@ -1,0 +1,71 @@
+.block-select-page {
+    width: 80%;
+    padding: 25px;
+}
+
+.block-select-page .container {
+    padding: 30px;
+}
+
+.blocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.block-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-card:hover {
+    transform: translateY(-3px);
+}
+
+.block-card h3,
+.block-card h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.block-actions {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.edit-button, .delete-button {
+    height: 25px;
+    width: 125px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 2px solid rgb(255,255,255);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.delete-button {
+    background: rgba(255, 0, 0, 0.8);
+}
+
+.edit-button {
+    background: rgba(0,0,0,0.8);
+}
+
+.delete-button:hover {
+    background: rgba(255, 0, 0, 0.6);
+}
+
+.edit-button:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
